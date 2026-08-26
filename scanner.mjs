@@ -4,6 +4,7 @@ import { createHash } from 'node:crypto';
 const sources=JSON.parse(await readFile('sources.json','utf8'));
 const config=JSON.parse(await readFile('config.json','utf8'));
 const state=JSON.parse(await readFile('data/state.json','utf8'));
+const history=await readFile('data/history.json','utf8').then(JSON.parse).catch(()=>[]);
 const trigger=process.env.SCAN_TRIGGER||'manual_test';
 const isScheduled=trigger==='schedule';
 const now=new Date();
@@ -29,5 +30,7 @@ const succeeded=results.filter(x=>x.status==='success').length;
 const failed=results.length-succeeded;
 if(isScheduled){state.scheduledRunsCompleted+=1;state.firstScheduledRunAt??=iso;state.lastScheduledRunAt=iso;if(state.scheduledRunsCompleted>=config.trialRuns){state.trialStatus='complete';state.completedAt=iso}else state.trialStatus='running'}
 const latest={runId:`scan-${Date.now()}`,trigger,startedAt:iso,completedAt:new Date().toISOString(),malaysiaDate,status:failed===results.length?'failed':failed?'partial':'success',sourcesTotal:results.length,sourcesSucceeded:succeeded,sourcesFailed:failed,newLeads:leads.length,changedSources:changed,aiCalls:0,openaiCalls:0,autoPublished:0,verificationLevel:'awaiting_deep_verification',trial:{scheduledRunsCompleted:state.scheduledRunsCompleted,scheduledRunsTarget:config.trialRuns,status:state.trialStatus},leads,sourceResults:results.map(({leads:_,...x})=>x)};
-await mkdir('data/runs',{recursive:true});await writeFile('data/latest.json',JSON.stringify(latest,null,2)+'\n');await writeFile(`data/runs/${malaysiaDate}-${trigger}-${Date.now()}.json`,JSON.stringify(latest,null,2)+'\n');await writeFile('data/state.json',JSON.stringify(state,null,2)+'\n');
+const summary=Object.fromEntries(Object.entries(latest).filter(([key])=>!['leads','sourceResults'].includes(key)));
+const nextHistory=[summary,...history.filter(x=>x.runId!==latest.runId)].slice(0,14);
+await mkdir('data/runs',{recursive:true});await writeFile('data/latest.json',JSON.stringify(latest,null,2)+'\n');await writeFile('data/history.json',JSON.stringify(nextHistory,null,2)+'\n');await writeFile(`data/runs/${malaysiaDate}-${trigger}-${Date.now()}.json`,JSON.stringify(latest,null,2)+'\n');await writeFile('data/state.json',JSON.stringify(state,null,2)+'\n');
 console.log(JSON.stringify({status:latest.status,succeeded,failed,leads:leads.length,aiCalls:0,openaiCalls:0,scheduledRunsCompleted:state.scheduledRunsCompleted,trialStatus:state.trialStatus}));
