@@ -1,1 +1,24 @@
-[]
+[
+  {
+    "runId": "scan-1787750786424",
+    "trigger": "manual_test",
+    "startedAt": "2026-08-26T13:26:00.981Z",
+    "completedAt": "2026-08-26T13:26:26.424Z",
+    "malaysiaDate": "2026-08-26",
+    "status": "partial",
+    "sourcesTotal": 25,
+    "sourcesSucceeded": 13,
+    "sourcesFailed": 12,
+    "newLeads": 27,
+    "changedSources": 4,
+    "aiCalls": 0,
+    "openaiCalls": 0,
+    "autoPublished": 0,
+    "verificationLevel": "awaiting_deep_verification",
+    "trial": {
+      "scheduledRunsCompleted": 0,
+      "scheduledRunsTarget": 7,
+      "status": "ready"
+    }
+  }
+]
