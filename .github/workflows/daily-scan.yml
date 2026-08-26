@@ -1,4 +1,4 @@
-# version: 1.0.1
+# version: 1.0.2
 name: PandaJason Goodies Zero-AI Scan
 
 on:
@@ -28,10 +28,11 @@ jobs:
     env:
       SCAN_TRIGGER: ${{ github.event_name == 'schedule' && 'schedule' || inputs.trigger_type }}
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
         with:
           node-version: '22'
+          package-manager-cache: false
       - name: Safety audit
         run: |
           test "$(node -p "require('./config.json').aiServicesAllowed")" = "false"
