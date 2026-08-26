@@ -1,0 +1,8 @@
+{
+  "timezone": "Asia/Kuala_Lumpur",
+  "scheduledTime": "08:30",
+  "trialRuns": 7,
+  "aiServicesAllowed": false,
+  "openaiAllowed": false,
+  "autoPublishAllowed": false
+}

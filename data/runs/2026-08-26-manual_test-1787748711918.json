@@ -1,0 +1,655 @@
+{
+  "runId": "scan-1787748711887",
+  "trigger": "manual_test",
+  "startedAt": "2026-08-26T12:51:31.786Z",
+  "completedAt": "2026-08-26T12:51:51.888Z",
+  "malaysiaDate": "2026-08-26",
+  "status": "partial",
+  "sourcesTotal": 25,
+  "sourcesSucceeded": 16,
+  "sourcesFailed": 9,
+  "newLeads": 38,
+  "changedSources": 0,
+  "aiCalls": 0,
+  "openaiCalls": 0,
+  "autoPublished": 0,
+  "verificationLevel": "awaiting_deep_verification",
+  "trial": {
+    "scheduledRunsCompleted": 0,
+    "scheduledRunsTarget": 7,
+    "status": "ready"
+  },
+  "leads": [
+    {
+      "url": "https://www.theexchange.my/shop/tourist-rewards/",
+      "title": "Tourist Rewards",
+      "sourceId": "trx",
+      "sourceName": "The Exchange TRX Promotions",
+      "region": "Kuala Lumpur",
+      "verificationLevel": "awaiting_deep_verification"
+    },
+    {
+      "url": "https://www.theexchange.my/shop/tourist-rewards/tourist-rewards-kimpton/",
+      "title": "Kimpton Rewards",
+      "sourceId": "trx",
+      "sourceName": "The Exchange TRX Promotions",
+      "region": "Kuala Lumpur",
+      "verificationLevel": "awaiting_deep_verification"
+    },
+    {
+      "url": "https://member.pavilion-kl.com/Login?ReturnUrl=%2f",
+      "title": "Be a Member",
+      "sourceId": "pavilion-kl",
+      "sourceName": "Pavilion KL Offers",
+      "region": "Kuala Lumpur",
+      "verificationLevel": "awaiting_deep_verification"
+    },
+    {
+      "url": "https://www.pavilion-kl.com/lovns-coffee-30-off-mobile-app-exclusive/",
+      "title": "Lovns Coffee 30% off &#8211; Mobile App Exclusive",
+      "sourceId": "pavilion-kl",
+      "sourceName": "Pavilion KL Offers",
+      "region": "Kuala Lumpur",
+      "verificationLevel": "awaiting_deep_verification"
+    },
+    {
+      "url": "https://www.pavilion-kl.com/mobile-payday-app-clusive-rewards/",
+      "title": "Mobile PayDay App-Clusive Rewards",
+      "sourceId": "pavilion-kl",
+      "sourceName": "Pavilion KL Offers",
+      "region": "Kuala Lumpur",
+      "verificationLevel": "awaiting_deep_verification"
+    },
+    {
+      "url": "https://www.pavilion-kl.com/clarks-merdeka-promo/",
+      "title": "Clarks Merdeka Promo",
+      "sourceId": "pavilion-kl",
+      "sourceName": "Pavilion KL Offers",
+      "region": "Kuala Lumpur",
+      "verificationLevel": "awaiting_deep_verification"
+    },
+    {
+      "url": "https://www.pavilion-kl.com/a-gift-from-swarovski-to-celebrate-the-moment/",
+      "title": "A Gift from Swarovski to Celebrate the Moment",
+      "sourceId": "pavilion-kl",
+      "sourceName": "Pavilion KL Offers",
+      "region": "Kuala Lumpur",
+      "verificationLevel": "awaiting_deep_verification"
+    },
+    {
+      "url": "https://www.pavilion-kl.com/braun-buffels-special-reward-for-national-day/",
+      "title": "Braun Büffel&#8217;s Special Reward for National Day",
+      "sourceId": "pavilion-kl",
+      "sourceName": "Pavilion KL Offers",
+      "region": "Kuala Lumpur",
+      "verificationLevel": "awaiting_deep_verification"
+    },
+    {
+      "url": "https://www.pavilion-kl.com/rookie-mobile-app-exclusive-cloned/",
+      "title": "New Era &#8211; Mobile App Exclusive",
+      "sourceId": "pavilion-kl",
+      "sourceName": "Pavilion KL Offers",
+      "region": "Kuala Lumpur",
+      "verificationLevel": "awaiting_deep_verification"
+    },
+    {
+      "url": "https://www.pavilion-kl.com/clarks-gwps-gym-bag/",
+      "title": "Clarks Member Exclusive: Gym Bag",
+      "sourceId": "pavilion-kl",
+      "sourceName": "Pavilion KL Offers",
+      "region": "Kuala Lumpur",
+      "verificationLevel": "awaiting_deep_verification"
+    },
+    {
+      "url": "https://www.sunwaypyramid.com/student-promotions",
+      "title": "Student Promotions",
+      "sourceId": "sunway-pyramid",
+      "sourceName": "Sunway Pyramid Promotions",
+      "region": "Subang Jaya",
+      "verificationLevel": "awaiting_deep_verification"
+    },
+    {
+      "url": "https://www.sunwayvelocitymall.com/velostudent",
+      "title": "Registration & Promotions",
+      "sourceId": "sunway-velocity",
+      "sourceName": "Sunway Velocity Mall Promotions",
+      "region": "Cheras",
+      "verificationLevel": "awaiting_deep_verification"
+    },
+    {
+      "url": "https://www.sunwayvelocitymall.com/velokiddie",
+      "title": "Registration & Promotions",
+      "sourceId": "sunway-velocity",
+      "sourceName": "Sunway Velocity Mall Promotions",
+      "region": "Cheras",
+      "verificationLevel": "awaiting_deep_verification"
+    },
+    {
+      "url": "https://www.sunwayvelocitymall.com/autsome",
+      "title": "EXCLUSIVE DEALS FOR TOURISTS",
+      "sourceId": "sunway-velocity",
+      "sourceName": "Sunway Velocity Mall Promotions",
+      "region": "Cheras",
+      "verificationLevel": "awaiting_deep_verification"
+    },
+    {
+      "url": "https://www.sunwayvelocitymall.com/exclusive-deals-for-hotel-guests",
+      "title": "Exclusive Deals for Hotel Guests",
+      "sourceId": "sunway-velocity",
+      "sourceName": "Sunway Velocity Mall Promotions",
+      "region": "Cheras",
+      "verificationLevel": "awaiting_deep_verification"
+    },
+    {
+      "url": "https://www.sunwayvelocitymall.com/exclusive-deals-for-rapid-kembara-pass-holder",
+      "title": "Exclusive Deals for Rapid Kembara Pass Holder",
+      "sourceId": "sunway-velocity",
+      "sourceName": "Sunway Velocity Mall Promotions",
+      "region": "Cheras",
+      "verificationLevel": "awaiting_deep_verification"
+    },
+    {
+      "url": "https://www.ioimp.com.my/promotions/promotions/?pagedetail=1940",
+      "title": "August Birthday Reward",
+      "sourceId": "ioi-mall-puchong",
+      "sourceName": "IOI Mall Puchong Promotions",
+      "region": "Puchong",
+      "verificationLevel": "awaiting_deep_verification"
+    },
+    {
+      "url": "https://www.ioicitymall.com.my/promotions/promotions/?pagedetail=5052",
+      "title": "AUGUST BIRTHDAY BABIES",
+      "sourceId": "ioi-city-mall",
+      "sourceName": "IOI City Mall Promotions",
+      "region": "Putrajaya",
+      "verificationLevel": "awaiting_deep_verification"
+    },
+    {
+      "url": "https://www.ioicitymall.com.my/promotions/promotions/?pagedetail=4396",
+      "title": "IOI SHOPZ Free Delivery Service",
+      "sourceId": "ioi-city-mall",
+      "sourceName": "IOI City Mall Promotions",
+      "region": "Putrajaya",
+      "verificationLevel": "awaiting_deep_verification"
+    },
+    {
+      "url": "https://setiacitymall.com/index.php/opening-hours/",
+      "title": "Opening hours",
+      "sourceId": "setia-city-mall",
+      "sourceName": "Setia City Mall Happenings",
+      "region": "Shah Alam",
+      "verificationLevel": "awaiting_deep_verification"
+    },
+    {
+      "url": "https://setiacitymall.com/index.php/school-reward-return-gallery/",
+      "title": "School Reward Returns Gallery 31 Aug",
+      "sourceId": "setia-city-mall",
+      "sourceName": "Setia City Mall Happenings",
+      "region": "Shah Alam",
+      "verificationLevel": "awaiting_deep_verification"
+    },
+    {
+      "url": "https://setiacitymall.com/index.php/happenings/#",
+      "title": "Leasing &#038; Promotions",
+      "sourceId": "setia-city-mall",
+      "sourceName": "Setia City Mall Happenings",
+      "region": "Shah Alam",
+      "verificationLevel": "awaiting_deep_verification"
+    },
+    {
+      "url": "https://mitsui-shopping-park.com.my/LaLaportBBCC/Events/eventNew?id=8&dian_id=1",
+      "title": "Latest Promotions",
+      "sourceId": "lalaport",
+      "sourceName": "LaLaport BBCC Events & Promotions",
+      "region": "Kuala Lumpur",
+      "verificationLevel": "awaiting_deep_verification"
+    },
+    {
+      "url": "https://mitsui-shopping-park.com.my/LaLaportBBCC/About/aboutMall?id=5&name=SERVICES&dian_id=1",
+      "title": "Event and Promotion Space",
+      "sourceId": "lalaport",
+      "sourceName": "LaLaport BBCC Events & Promotions",
+      "region": "Kuala Lumpur",
+      "verificationLevel": "awaiting_deep_verification"
+    },
+    {
+      "url": "https://mitsui-shopping-park.com.my/LaLaportBBCC/Events/eventDetail?id=50&amp;dian_id=1",
+      "title": "MSP App Membership",
+      "sourceId": "lalaport",
+      "sourceName": "LaLaport BBCC Events & Promotions",
+      "region": "Kuala Lumpur",
+      "verificationLevel": "awaiting_deep_verification"
+    },
+    {
+      "url": "https://mitsui-shopping-park.com.my/LaLaportBBCC/About?id=46&name=Cash+Voucher+Acceptance&dian_id=1",
+      "title": "Cash Voucher Acceptance",
+      "sourceId": "lalaport",
+      "sourceName": "LaLaport BBCC Events & Promotions",
+      "region": "Kuala Lumpur",
+      "verificationLevel": "awaiting_deep_verification"
+    },
+    {
+      "url": "https://portal.giftee-biz.asia/item?brand_id=14",
+      "title": "Buy Voucher",
+      "sourceId": "sushi-king-membership",
+      "sourceName": "Sushi King Membership",
+      "region": "全马",
+      "verificationLevel": "awaiting_deep_verification"
+    },
+    {
+      "url": "https://bigpharmacy.com.my/collections/freestyle",
+      "title": "Freestyle",
+      "sourceId": "big-pharmacy-membership",
+      "sourceName": "BIG Pharmacy Membership FAQ",
+      "region": "全马",
+      "verificationLevel": "awaiting_deep_verification"
+    },
+    {
+      "url": "https://bigpharmacy.com.my/products/freestyle-libre-2-plus-sensor",
+      "title": "FREESTYLE FREESTYLE LIBRE 2 PLUS SENSOR (FREE GLUCERNA 800G) RM310.20",
+      "sourceId": "big-pharmacy-membership",
+      "sourceName": "BIG Pharmacy Membership FAQ",
+      "region": "全马",
+      "verificationLevel": "awaiting_deep_verification"
+    },
+    {
+      "url": "https://bigpharmacy.com.my/products/freestyle-lite-test-strip-50s-s",
+      "title": "Sale FREESTYLE FREESTYLE LITE TEST STRIP 50S RM74.90 RM79.90",
+      "sourceId": "big-pharmacy-membership",
+      "sourceName": "BIG Pharmacy Membership FAQ",
+      "region": "全马",
+      "verificationLevel": "awaiting_deep_verification"
+    },
+    {
+      "url": "https://bigpharmacy.com.my/products/bene-br-ex-strength-ankle-guard-1s-free-size",
+      "title": "Sale EBENE EBENE BR EX STRENGTH ANKLE GUARD 1S FREE SIZE RM62.30 RM93.50",
+      "sourceId": "big-pharmacy-membership",
+      "sourceName": "BIG Pharmacy Membership FAQ",
+      "region": "全马",
+      "verificationLevel": "awaiting_deep_verification"
+    },
+    {
+      "url": "https://bigpharmacy.com.my/products/ebene-bio-ray-sport-wrist-guard-free-size",
+      "title": "Sale EBENE EBENE BIO RAY SPORT WRIST GUARD FREE SIZE RM40.60 RM60.90",
+      "sourceId": "big-pharmacy-membership",
+      "sourceName": "BIG Pharmacy Membership FAQ",
+      "region": "全马",
+      "verificationLevel": "awaiting_deep_verification"
+    },
+    {
+      "url": "https://bigpharmacy.com.my/products/ebene-bio-ray-extra-strenght-knee-guard-w-tourmaline-free-size",
+      "title": "Sale EBENE EBENE BIO RAY EXTRA STRENGHT KNEE GUARD W/TOURMALINE (FREE SIZE) RM107.10 RM144.60",
+      "sourceId": "big-pharmacy-membership",
+      "sourceName": "BIG Pharmacy Membership FAQ",
+      "region": "全马",
+      "verificationLevel": "awaiting_deep_verification"
+    },
+    {
+      "url": "https://bigpharmacy.com.my/products/top-glove-latex-powder-free-m-100s",
+      "title": "TOP GLOVE TOP GLOVE LATEX POWDER FREE M 100S RM19.80",
+      "sourceId": "big-pharmacy-membership",
+      "sourceName": "BIG Pharmacy Membership FAQ",
+      "region": "全马",
+      "verificationLevel": "awaiting_deep_verification"
+    },
+    {
+      "url": "https://bigpharmacy.com.my/products/top-glove-latex-powder-free-l-100s",
+      "title": "TOP GLOVE TOP GLOVE LATEX POWDER FREE L 100S RM19.80",
+      "sourceId": "big-pharmacy-membership",
+      "sourceName": "BIG Pharmacy Membership FAQ",
+      "region": "全马",
+      "verificationLevel": "awaiting_deep_verification"
+    },
+    {
+      "url": "http://familymart.com.my/membership",
+      "title": "Download the MY FamilyMart App now [http://familymart.com.my/membership]",
+      "sourceId": "familymart-promotions",
+      "sourceName": "FamilyMart Malaysia Promotions",
+      "region": "全马",
+      "verificationLevel": "awaiting_deep_verification"
+    },
+    {
+      "url": "https://www.rwgenting.com/en/genting-rewards/birthday-privileges.html#_-tabpanel",
+      "title": "Birthday Privileges",
+      "sourceId": "rw-genting-birthday",
+      "sourceName": "Genting Rewards Birthday Privileges",
+      "region": "Genting／全马会员",
+      "verificationLevel": "awaiting_deep_verification"
+    },
+    {
+      "url": "https://www.rwgenting.com/en/genting-rewards/birthday-privileges/enjoy-your-birthday-treat-from-yomies-rice-x-yogurt.html",
+      "title": "Enjoy your Birthday Treat from Yomie’s Rice X Yogurt!",
+      "sourceId": "rw-genting-birthday",
+      "sourceName": "Genting Rewards Birthday Privileges",
+      "region": "Genting／全马会员",
+      "verificationLevel": "awaiting_deep_verification"
+    }
+  ],
+  "sourceResults": [
+    {
+      "id": "trx",
+      "name": "The Exchange TRX Promotions",
+      "group": "核心商场",
+      "region": "Kuala Lumpur",
+      "url": "https://www.theexchange.my/shop/promotions/",
+      "frequency": "daily",
+      "status": "success",
+      "httpStatus": 200,
+      "contentHash": "2f124548b4d5177fe382a58edad211512da1d21057049b7128634d3bcad7fd08",
+      "checkedAt": "2026-08-26T12:51:31.786Z",
+      "error": null
+    },
+    {
+      "id": "pavilion-kl",
+      "name": "Pavilion KL Offers",
+      "group": "核心商场",
+      "region": "Kuala Lumpur",
+      "url": "https://www.pavilion-kl.com/offers/",
+      "frequency": "daily",
+      "status": "success",
+      "httpStatus": 200,
+      "contentHash": "6942a93ce75ad93437c342d10e657ef2c465936e03121b80f8a81d3dd657a269",
+      "checkedAt": "2026-08-26T12:51:31.786Z",
+      "error": null
+    },
+    {
+      "id": "mid-valley",
+      "name": "Mid Valley Megamall Deals",
+      "group": "核心商场",
+      "region": "Kuala Lumpur",
+      "url": "https://www.midvalley.com.my/deal/",
+      "frequency": "daily",
+      "status": "success",
+      "httpStatus": 200,
+      "contentHash": "7ac22cf2ad563b38534f27088465f45c6e27f40619375f02c81d1c59927649ae",
+      "checkedAt": "2026-08-26T12:51:31.786Z",
+      "error": null
+    },
+    {
+      "id": "one-utama",
+      "name": "1 Utama Trending Promo",
+      "group": "核心商场",
+      "region": "Petaling Jaya",
+      "url": "https://www.1utama.com.my/trending-promo/",
+      "frequency": "daily",
+      "status": "failed",
+      "httpStatus": null,
+      "contentHash": null,
+      "checkedAt": "2026-08-26T12:51:31.786Z",
+      "error": "HTTP 403"
+    },
+    {
+      "id": "sunway-pyramid",
+      "name": "Sunway Pyramid Promotions",
+      "group": "Klang Valley 商场",
+      "region": "Subang Jaya",
+      "url": "https://www.sunwaypyramid.com/promotions",
+      "frequency": "daily",
+      "status": "success",
+      "httpStatus": 200,
+      "contentHash": "560e514c88f445729ecec93302a0faa289c4bbf2fae012f54d95edcd772eb728",
+      "checkedAt": "2026-08-26T12:51:31.786Z",
+      "error": null
+    },
+    {
+      "id": "sunway-velocity",
+      "name": "Sunway Velocity Mall Promotions",
+      "group": "Klang Valley 商场",
+      "region": "Cheras",
+      "url": "https://www.sunwayvelocitymall.com/promotions",
+      "frequency": "daily",
+      "status": "success",
+      "httpStatus": 200,
+      "contentHash": "f6017f797f1dca015ff7a1279058e76e6b31d0dfd63a939a98bdf430edf003f2",
+      "checkedAt": "2026-08-26T12:51:31.786Z",
+      "error": null
+    },
+    {
+      "id": "ioi-mall-puchong",
+      "name": "IOI Mall Puchong Promotions",
+      "group": "Klang Valley 商场",
+      "region": "Puchong",
+      "url": "https://www.ioimp.com.my/promotions/",
+      "frequency": "daily",
+      "status": "success",
+      "httpStatus": 200,
+      "contentHash": "de094924430d39a340cced32f79bb0a4cea52fdf0eacd8f7a7f22e74dca17b7c",
+      "checkedAt": "2026-08-26T12:51:31.786Z",
+      "error": null
+    },
+    {
+      "id": "ioi-city-mall",
+      "name": "IOI City Mall Promotions",
+      "group": "Klang Valley 商场",
+      "region": "Putrajaya",
+      "url": "https://www.ioicitymall.com.my/promotions/",
+      "frequency": "daily",
+      "status": "success",
+      "httpStatus": 200,
+      "contentHash": "775edbb18a960853842a7378b199b56540d9b8b3d021b87ea823e58f5ec893a0",
+      "checkedAt": "2026-08-26T12:51:31.786Z",
+      "error": null
+    },
+    {
+      "id": "setia-city-mall",
+      "name": "Setia City Mall Happenings",
+      "group": "Klang Valley 商场",
+      "region": "Shah Alam",
+      "url": "https://setiacitymall.com/index.php/happenings/",
+      "frequency": "daily",
+      "status": "success",
+      "httpStatus": 200,
+      "contentHash": "72de9cd0ae974e89ed0c563eb9060e738eb100ff94623457d77d46273796305b",
+      "checkedAt": "2026-08-26T12:51:31.786Z",
+      "error": null
+    },
+    {
+      "id": "suria-klcc",
+      "name": "Suria KLCC Promotions",
+      "group": "Klang Valley 商场",
+      "region": "Kuala Lumpur",
+      "url": "https://www.suriaklcc.com.my/promotions/",
+      "frequency": "daily",
+      "status": "success",
+      "httpStatus": 200,
+      "contentHash": "a987fe83041aaa5eab1c88609acc97fca980c7e8893cbabbd1c685c3aabedfc9",
+      "checkedAt": "2026-08-26T12:51:31.786Z",
+      "error": null
+    },
+    {
+      "id": "mytown",
+      "name": "MyTOWN Deals",
+      "group": "Klang Valley 商场",
+      "region": "Cheras",
+      "url": "https://mytownkl.com.my/deals",
+      "frequency": "daily",
+      "status": "failed",
+      "httpStatus": null,
+      "contentHash": null,
+      "checkedAt": "2026-08-26T12:51:31.786Z",
+      "error": "HTTP 404"
+    },
+    {
+      "id": "lalaport",
+      "name": "LaLaport BBCC Events & Promotions",
+      "group": "Klang Valley 商场",
+      "region": "Kuala Lumpur",
+      "url": "https://mitsui-shopping-park.com.my/LaLaportBBCC/Main/Index",
+      "frequency": "daily",
+      "status": "success",
+      "httpStatus": 200,
+      "contentHash": "850dc1c32f34bfdf070d04738a2115320a3c7fe67f2fb79a9bbbf3cdb2e53c5b",
+      "checkedAt": "2026-08-26T12:51:31.786Z",
+      "error": null
+    },
+    {
+      "id": "central-icity",
+      "name": "Central i-City Promotions",
+      "group": "Klang Valley 商场",
+      "region": "Shah Alam",
+      "url": "https://central-icity.com.my/promotions/",
+      "frequency": "daily",
+      "status": "failed",
+      "httpStatus": null,
+      "contentHash": null,
+      "checkedAt": "2026-08-26T12:51:31.786Z",
+      "error": "HTTP 403"
+    },
+    {
+      "id": "starbucks-rewards",
+      "name": "Starbucks Malaysia Rewards",
+      "group": "全国会员／生日",
+      "region": "全马",
+      "url": "https://www.starbucks.com.my/rewards",
+      "frequency": "weekly",
+      "status": "failed",
+      "httpStatus": null,
+      "contentHash": null,
+      "checkedAt": "2026-08-26T12:51:31.786Z",
+      "error": "HTTP 403"
+    },
+    {
+      "id": "gongcha-rewards",
+      "name": "Gong Cha Malaysia Rewards",
+      "group": "全国会员／生日",
+      "region": "全马",
+      "url": "https://www.gong-cha.com.my/rewards",
+      "frequency": "weekly",
+      "status": "success",
+      "httpStatus": 200,
+      "contentHash": "4d9a33a2fb52e199799ffed49bb4c4fbf76202bde38f3851d2f145003a5c267b",
+      "checkedAt": "2026-08-26T12:51:31.786Z",
+      "error": null
+    },
+    {
+      "id": "sushi-king-membership",
+      "name": "Sushi King Membership",
+      "group": "全国会员／生日",
+      "region": "全马",
+      "url": "https://sushi-king.com/membership/",
+      "frequency": "weekly",
+      "status": "success",
+      "httpStatus": 200,
+      "contentHash": "ec3fb09a2ede6090dfd07a05c22bfff20e03637973814cee821a62d96439ea56",
+      "checkedAt": "2026-08-26T12:51:31.786Z",
+      "error": null
+    },
+    {
+      "id": "big-pharmacy-membership",
+      "name": "BIG Pharmacy Membership FAQ",
+      "group": "全国会员／生日",
+      "region": "全马",
+      "url": "https://bigpharmacy.com.my/pages/membership-faq",
+      "frequency": "weekly",
+      "status": "success",
+      "httpStatus": 200,
+      "contentHash": "85542ba5b94a6b5d0673ed4e21ea6988c3feafeccc29f15d5d0344da90a5bce5",
+      "checkedAt": "2026-08-26T12:51:31.786Z",
+      "error": null
+    },
+    {
+      "id": "mcd-promotions",
+      "name": "McDonald's Malaysia Promotions",
+      "group": "全国连锁品牌",
+      "region": "全马",
+      "url": "https://www.mcdonalds.com.my/promotion",
+      "frequency": "daily",
+      "status": "failed",
+      "httpStatus": null,
+      "contentHash": null,
+      "checkedAt": "2026-08-26T12:51:31.786Z",
+      "error": "HTTP 403"
+    },
+    {
+      "id": "tealive-promotions",
+      "name": "Tealive Promotions",
+      "group": "全国连锁品牌",
+      "region": "全马",
+      "url": "https://www.tealive.com.my/promotions",
+      "frequency": "daily",
+      "status": "failed",
+      "httpStatus": null,
+      "contentHash": null,
+      "checkedAt": "2026-08-26T12:51:31.786Z",
+      "error": "HTTP 404"
+    },
+    {
+      "id": "zus-promotions",
+      "name": "ZUS Coffee Promotions",
+      "group": "全国连锁品牌",
+      "region": "全马",
+      "url": "https://zuscoffee.com/category/promotion/",
+      "frequency": "daily",
+      "status": "failed",
+      "httpStatus": null,
+      "contentHash": null,
+      "checkedAt": "2026-08-26T12:51:31.786Z",
+      "error": "timeout"
+    },
+    {
+      "id": "familymart-promotions",
+      "name": "FamilyMart Malaysia Promotions",
+      "group": "全国连锁品牌",
+      "region": "全马",
+      "url": "https://familymart.com.my/promotions.html",
+      "frequency": "daily",
+      "status": "success",
+      "httpStatus": 200,
+      "contentHash": "d9c15742d38b19c66a266a0905b47044045c7ae73139175d3d38af8247824c7a",
+      "checkedAt": "2026-08-26T12:51:31.786Z",
+      "error": null
+    },
+    {
+      "id": "watsons-promotions",
+      "name": "Watsons Malaysia Promotions",
+      "group": "全国线上",
+      "region": "全马／线上",
+      "url": "https://www.watsons.com.my/promotion",
+      "frequency": "daily",
+      "status": "failed",
+      "httpStatus": null,
+      "contentHash": null,
+      "checkedAt": "2026-08-26T12:51:31.786Z",
+      "error": "HTTP 403"
+    },
+    {
+      "id": "guardian-promotions",
+      "name": "Guardian Malaysia Promotions",
+      "group": "全国线上",
+      "region": "全马／线上",
+      "url": "https://www.guardian.com.my/promotions",
+      "frequency": "daily",
+      "status": "success",
+      "httpStatus": 200,
+      "contentHash": "66e25b1c71928f57aa93a95e2535462ea7eb0c75c0d150b4c6799e9a38243362",
+      "checkedAt": "2026-08-26T12:51:31.786Z",
+      "error": null
+    },
+    {
+      "id": "tourism-malaysia",
+      "name": "Tourism Malaysia Events",
+      "group": "全国活动",
+      "region": "全马",
+      "url": "https://www.malaysia.travel/events",
+      "frequency": "weekly",
+      "status": "failed",
+      "httpStatus": null,
+      "contentHash": null,
+      "checkedAt": "2026-08-26T12:51:31.786Z",
+      "error": "HTTP 403"
+    },
+    {
+      "id": "rw-genting-birthday",
+      "name": "Genting Rewards Birthday Privileges",
+      "group": "全国会员／生日",
+      "region": "Genting／全马会员",
+      "url": "https://www.rwgenting.com/en/genting-rewards/birthday-privileges.html",
+      "frequency": "weekly",
+      "status": "success",
+      "httpStatus": 200,
+      "contentHash": "2f27a76fea6e32670ec2c2c6300d1d7508ccfc718ce9456c6e25ae0cf7dd5506",
+      "checkedAt": "2026-08-26T12:51:31.786Z",
+      "error": null
+    }
+  ]
+}

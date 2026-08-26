@@ -1,0 +1,59 @@
+name: PandaJason Goodies Zero-AI Scan
+
+on:
+  workflow_dispatch:
+    inputs:
+      trigger_type:
+        description: Run type
+        required: true
+        default: manual_test
+        type: choice
+        options: [manual_test, schedule]
+  schedule:
+    - cron: '30 0 * * *'
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: pandajason-goodies-scanner
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      SCAN_TRIGGER: ${{ github.event_name == 'schedule' && 'schedule' || inputs.trigger_type }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Safety audit
+        run: |
+          test "$(node -p "require('./config.json').aiServicesAllowed")" = "false"
+          test "$(node -p "require('./config.json').openaiAllowed")" = "false"
+          test "$(node -p "require('./config.json').autoPublishAllowed")" = "false"
+      - name: Scan public sources without AI
+        run: npm run scan
+      - name: Commit public scan data
+        run: |
+          git config user.name "PandaJason Goodies Scanner"
+          git config user.email "actions@users.noreply.github.com"
+          git add data
+          git diff --cached --quiet || git commit -m "data: update zero-AI scan results"
+          git push
+      - name: Stop workflow after seven scheduled runs
+        if: env.SCAN_TRIGGER == 'schedule'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ "$(node -p "require('./data/state.json').trialStatus")" = "complete" ]; then
+            curl --fail-with-body -L -X PUT \
+              -H "Accept: application/vnd.github+json" \
+              -H "Authorization: Bearer $GH_TOKEN" \
+              -H "X-GitHub-Api-Version: 2022-11-28" \
+              "https://api.github.com/repos/${GITHUB_REPOSITORY}/actions/workflows/daily-scan.yml/disable"
+          fi

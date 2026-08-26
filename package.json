@@ -1,0 +1,7 @@
+{
+  "name": "pandajason-goodies-scanner",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": { "scan": "node scanner.mjs" }
+}
