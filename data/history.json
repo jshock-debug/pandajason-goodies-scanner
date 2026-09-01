@@ -1,5 +1,27 @@
 [
   {
+    "runId": "scan-1788223443559",
+    "trigger": "schedule",
+    "startedAt": "2026-09-01T00:43:38.998Z",
+    "completedAt": "2026-09-01T00:44:03.559Z",
+    "malaysiaDate": "2026-09-01",
+    "status": "partial",
+    "sourcesTotal": 25,
+    "sourcesSucceeded": 13,
+    "sourcesFailed": 12,
+    "newLeads": 31,
+    "changedSources": 11,
+    "aiCalls": 0,
+    "openaiCalls": 0,
+    "autoPublished": 0,
+    "verificationLevel": "awaiting_deep_verification",
+    "trial": {
+      "scheduledRunsCompleted": 5,
+      "scheduledRunsTarget": 7,
+      "status": "running"
+    }
+  },
+  {
     "runId": "scan-1788136411996",
     "trigger": "schedule",
     "startedAt": "2026-08-31T00:33:07.745Z",
