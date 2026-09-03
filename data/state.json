@@ -1,7 +1,7 @@
 {
-  "scheduledRunsCompleted": 6,
-  "trialStatus": "running",
+  "scheduledRunsCompleted": 7,
+  "trialStatus": "complete",
   "firstScheduledRunAt": "2026-08-28T06:22:37.049Z",
-  "lastScheduledRunAt": "2026-09-02T00:41:33.613Z",
-  "completedAt": null
+  "lastScheduledRunAt": "2026-09-03T00:43:11.090Z",
+  "completedAt": "2026-09-03T00:43:11.090Z"
 }
